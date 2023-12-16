@@ -1,0 +1,157 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:columnCount="3"
+    android:rowCount="4"
+    tools:context=".MainActivity"
+    android:layout_gravity="center">
+    <include
+        layout="@layout/top_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@+id/frame_layout"
+        tools:layout_editor_absoluteX="2dp" />
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/jan_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:background="@drawable/circular_button"
+            android:text="JAN"
+            android:layout_margin="10sp"/>
+
+        <Button
+            android:id="@+id/feb_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:background="@drawable/circular_button"
+            android:text="FEB"
+            android:layout_margin="10sp"/>
+
+        <Button
+            android:id="@+id/mar_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:background="@drawable/circular_button"
+            android:text="MAR"
+            android:layout_margin="10sp" />
+
+        <Button
+            android:id="@+id/apr_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:background="@drawable/circular_button"
+            android:text="APR"
+            android:layout_margin="10sp" />
+
+        <Button
+            android:id="@+id/may_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:background="@drawable/circular_button"
+            android:text="MAY"
+            android:layout_margin="10sp"/>
+
+        <Button
+            android:id="@+id/jun_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:background="@drawable/circular_button"
+            android:text="JUN"
+            android:layout_margin="10sp" />
+
+        <Button
+            android:id="@+id/jul_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:background="@drawable/circular_button"
+            android:text="JUL"
+            android:layout_margin="10sp" />
+
+        <Button
+            android:id="@+id/aug_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:background="@drawable/circular_button"
+            android:text="AUG"
+            android:layout_margin="10sp" />
+
+        <Button
+            android:id="@+id/sep_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:background="@drawable/circular_button"
+            android:text="SEP"
+            android:layout_margin="10sp" />
+
+        <Button
+            android:id="@+id/oct_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:background="@drawable/circular_button"
+            android:text="OCT"
+            android:layout_margin="10sp" />
+
+        <Button
+            android:id="@+id/nov_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:background="@drawable/circular_button"
+            android:text="NOV"
+            android:layout_margin="10sp" />
+
+        <Button
+            android:id="@+id/dec_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_rowSpan="1"
+            android:layout_columnSpan="1"
+            android:background="@drawable/circular_button"
+            android:text="DEC"
+            android:layout_margin="10sp"/>
+
+        <Button
+            android:id="@+id/current_date"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_columnSpan="3"
+            android:layout_gravity="center_horizontal"
+            android:background="#2ECC71"
+            android:gravity="center"
+            android:text="Current Date"
+            android:textColor="#37474F" />
+
+    </GridLayout>
+
+
+    <!-- Add buttons for the remaining months similarly -->
+
+</FrameLayout>
